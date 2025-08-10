@@ -1,0 +1,15 @@
+[package]
+name = "graph_analysis"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust implementation of graph analysis with traversal algorithms and subgraph detection"
+
+[lib]
+name = "graph_analysis"
+path = "src/lib.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[dependencies]
